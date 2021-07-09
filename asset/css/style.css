@@ -22,14 +22,106 @@ filter: grayscale(40%);
     height: 10px!important;
 }
 .section-Ecoho-image{
-    height: 400px;
+    height:400px;
+    width:100%;
 }
-.Ecoho-image-block{
-    height: 100px;
+
+.Ecoho-image-block img{
+    height: 150px;
     object-fit: cover;
+    width:250px;
+    margin: auto;
 
 }
+.section-content{
+    position: relative;
+    cursor:  pointer;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.history-icons{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute; 
+     top: 0;
+    left: 0; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.hover-icons:hover .history-icons{
+    opacity: 1;
+}
 .section-blog{
-    width: 18rem;
-    margin: 0px 20px;
+    transition: transform 0.2s;
+    margin-left: 18px;
+    overflow: hidden;
+        /* height:600px; */
+        width:400px;
+}
+
+.section-blog img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(01.1); 
+}
+
+.time-icon{
+    position: absolute;
+    top: 0.5rem;
+    right: -230px;
+}
+
+.time-icon :hover{
+    background-color: #00adef;
+}
+.play-icon-bg :hover{
+    background-color: #00adef;
+
+}
+.play-icon{
+    background-color: rgba(23,34,35,.75);
+    border-radius: 5px;
+     padding:  5px 25px;
+     color:#fff;
+     margin-right: 120px;
+
+ } 
+
+.duration-icon{
+    background-color: rgba(23,34,35,.75);
+    border-radius: 5px;
+     padding:  2px;
+     color:#fff;
+     font-size: 0.7rem;
+ 
+}
+.time-icon-bg{
+    background-color: rgba(23,34,35,.75);
+   border-radius: 5px;
+    padding:  5px 8px;
+    color:#fff;
+}
+.sec-play-duration{
+    position: absolute;
+    top:110px;
+    padding:0px 10px;
+}
+.artist-name{
+    color: #3A5161;
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+.image-icon{
+border-radius: 50%;
+width: 20px;
+height: 20px;
+margin-right: 5px;
+}
+.artist-deatails{
+    color: #879CAB;
+    font-size: 0.8rem;
 }
