@@ -1,0 +1,35 @@
+.starkslogo img{
+    height: 40px;
+}
+.navbarName li{
+    font-size: 0.8rem;
+}
+.nav-togglericon{
+    border:0px!important;
+
+}
+.nav-times{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+
+.navbarDropdown{
+    background-color: #fff;
+    color: #000;
+    width:80%;
+    height:200px;
+     margin: 10px 20px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+    /* backdrop-filter: blur(15%); */
+    transition: all 2s ease;
+    /* transition-property: left; */
+}
+
+
+.navbarDropdown a:hover{
+    color: blue!important;
+
+}
+}

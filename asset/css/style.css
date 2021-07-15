@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,800;1,900&display=swap');
 
+@import url('./header.css');
+@import url('./Banner.css');
+@import url('./innerPage.css');
+
+
 
 html{
     scroll-behavior: smooth;
@@ -14,6 +19,7 @@ body{
 height: 500px;
 object-fit: contain;
 filter: grayscale(40%);
+transition: none;
 
 }
 .section-carouselindicator{
@@ -21,16 +27,18 @@ filter: grayscale(40%);
     width: 10px!important;
     height: 10px!important;
 }
-.section-Ecoho-image{
+.section-blog-img{
     height:400px;
-    width:100%;
+    /* width:300px; */
 }
 
-.Ecoho-image-block img{
-    height: 150px;
+.section-image-grid img{
+        height: 150px;
     object-fit: cover;
-    width:250px;
+    /* width:200px; */
     margin: auto;
+    /* height:400px; */
+
 
 }
 .section-content{
@@ -59,7 +67,9 @@ filter: grayscale(40%);
     margin-left: 18px;
     overflow: hidden;
         /* height:600px; */
-        width:400px;
+        /* width:400px;
+        height:600px; */
+        width:50%;
 }
 
 .section-blog img:hover{
@@ -71,7 +81,7 @@ filter: grayscale(40%);
 .time-icon{
     position: absolute;
     top: 0.5rem;
-    right: -230px;
+    right: -280px;
 }
 
 .time-icon :hover{
@@ -86,7 +96,7 @@ filter: grayscale(40%);
     border-radius: 5px;
      padding:  5px 25px;
      color:#fff;
-     margin-right: 120px;
+     margin-right: 170px;
 
  } 
 
@@ -115,13 +125,129 @@ filter: grayscale(40%);
     margin: 0px;
     padding: 0px;
 }
-.image-icon{
+.artist-avater{
 border-radius: 50%;
 width: 20px;
 height: 20px;
 margin-right: 5px;
 }
-.artist-deatails{
+.artist-details{
     color: #879CAB;
     font-size: 0.8rem;
 }
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+  }
+}
+@media only screen and (max-width: 1024px) {
+    .time-icon{
+        right: -190px;
+    }
+    .play-icon{   
+         /* padding:  5px 25px; */
+         margin-right: 80px;
+
+}
+}
+@media only screen and (max-width: 768px) {
+    .time-icon{
+        right: -160px;
+    }
+    .play-icon{   
+         /* padding:  5px 25px; */
+         margin-right: 50px;
+
+}
+}
+@media only screen and (max-width: 600px) {
+    .banner-image{
+        height:auto;
+    }
+    /*holding the container of the media section*/
+    .section-media{
+        padding:0px 10px!important;
+    }
+    /*div holding the feature media*/
+    .section-blog{
+        width: 100%;
+        margin-left: 0px!important;
+    }
+    /*holding the grid in the section media*/
+    .section-content{
+       margin:0px!important; 
+    }
+   .section-mediacontainer{
+  padding: 10px 0px!important;
+    }
+    .section-imgpad{
+        padding-right: 0px!important;
+    }
+    .time-icon{
+        right: -170px;
+    }
+    .play-icon{   
+         /* padding:  5px 25px; */
+         margin-right: 60px;
+    }
+    .section-media-heading{
+    padding-left: 0px!important;
+     }
+
+}
+@media only screen and (max-width: 400px) {
+    .time-icon{
+        right: -150px;
+    }
+    .play-icon{          
+         margin-right: 40px;
+}
+}
+
