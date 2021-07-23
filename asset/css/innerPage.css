@@ -8,3 +8,50 @@
     margin:0px auto;
     display: block;
 }
+.section-innerContent{
+    width:40%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.section-innersubconent{
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding:8px 0px;
+
+}
+.section-innerContent h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.section-innerContent p{
+    font-size: 0.6rem;
+    font-weight: normal;
+}
+.section-innerInfo{
+    margin-right: 20px;
+}
+.section-innerInfo h2{
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+.section-innerInfo img{
+    width:100px;
+    height: 80px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .section-innerContent{
+        width:100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .section-innerContent{
+        width:40%;
+        /* padding: 5px; */
+    }
+}
+

@@ -4,7 +4,9 @@
 @import url('./header.css');
 @import url('./Banner.css');
 @import url('./innerPage.css');
-
+@import url('./contactUs.css');
+@import url("./footer.css");
+@import url("./AboutUs.css");
 
 
 html{
@@ -28,7 +30,7 @@ transition: none;
     height: 10px!important;
 }
 .section-blog-img{
-    height:400px;
+    height:430px;
     /* width:300px; */
 }
 
@@ -41,6 +43,9 @@ transition: none;
 
 
 }
+.navbarDropdown li{
+  font-size: 0.8rem;
+}
 .section-content{
     position: relative;
     cursor:  pointer;
@@ -48,6 +53,11 @@ transition: none;
     transition: .5s ease;
     backface-visibility: hidden;
 
+}
+.section-media-heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#767676
 }
 
 .history-icons{
@@ -63,7 +73,7 @@ transition: none;
     opacity: 1;
 }
 .section-blog{
-    transition: transform 0.2s;
+    transition: transform 0.2s linear;
     margin-left: 18px;
     overflow: hidden;
         /* height:600px; */
@@ -75,7 +85,7 @@ transition: none;
 .section-blog img:hover{
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(01.1); 
+    transform: scale(1.1); 
 }
 
 .time-icon{
@@ -186,7 +196,13 @@ margin-right: 5px;
     10% {
       opacity:1;
   }
-}
+} 
+
+/* @media only screen and(min-width:1300px){
+  .history-icons{
+display: none;
+  }
+} */
 @media only screen and (max-width: 1024px) {
     .time-icon{
         right: -190px;

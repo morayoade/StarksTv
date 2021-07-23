@@ -2,6 +2,7 @@ const navToggle=document.querySelector(".nav-togglericon");
 const menuBars=document.querySelector(".nav-bars");
 const menuTimes=document.querySelector(".nav-times");
 const navDropdrown=document.querySelector(".navbarDropdown");
+
 let showMenu=false;
 
 navToggle.addEventListener('click', toggleNavbar);
