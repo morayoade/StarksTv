@@ -51,6 +51,7 @@ font-weight: bold;
     .contact-form{
         width:100%;
         margin:20px;
+        height:auto;
     } 
     .contact-mail{
         margin: 0px ;
