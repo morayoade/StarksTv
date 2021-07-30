@@ -2,6 +2,7 @@ const navToggle=document.querySelector(".nav-togglericon");
 const menuBars=document.querySelector(".nav-bars");
 const menuTimes=document.querySelector(".nav-times");
 const navDropdrown=document.querySelector(".navbarDropdown");
+const navHeading=document.querySelector(".navbar-heading");
 
 let showMenu=false;
 
@@ -25,4 +26,12 @@ function toggleNavbar(){
 
     }
     
+}
+window.onscroll=()=>{
+    if(window.scrollY >0){
+        navHeading.classList.add("nav-active");
+
+    }else{
+        navHeading.classList.remove("nav-active")
+    }
 }

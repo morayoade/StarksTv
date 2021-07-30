@@ -30,39 +30,39 @@ function validateEmail(email) {
 
  if (!validateText(fullNameValue)) {
     error = true
-    fullnameError.innerHTML= "<span class='text-danger'>Invalid input</span>";
+    fullnameError.innerHTML= "<span class='text-danger'>Please input your correct name</span>";
 }
 if (fullNameValue === "") {
     // error = false
     error=true
-    fullnameError.innerHTML= "<span class='text-danger'>Name cannot be empty</span>";
+    fullnameError.innerHTML= "<span class='text-danger'>Please input your full name</span>";
 }
 
 
 if(!validateEmail(emailValue)){
     error=true
-    emailError.innerHTML= "<span class='text-danger'>Invalid input</span>";
+    emailError.innerHTML= "<span class='text-danger'>Please input your valid email</span>";
 }
 if(emailValue === ""){
     error=true
-    emailError.innerHTML= "<span class='text-danger'>Email cannot be empty</span>";
+    emailError.innerHTML= "<span class='text-danger'>Please input your email</span>";
 }
 // emailError.innerHTML= "";
 if (!validatePhone(phoneValue)) {
     error = true
-    phoneError.innerHTML= "<span class='text-danger'>Invalid input</span>";
+    phoneError.innerHTML= "<span class='text-danger'></span>";
 }
 if(phoneValue === ""){
     error=true
-    phoneError.innerHTML= "<span class='text-danger'>Phone Number cannot be empty</span>";
+    phoneError.innerHTML= "<span class='text-danger'>Please input your phone number</span>";
 }
 if (!validateText(messageValue)) {
     error = true
-    messageError.innerHTML= "<span class='text-danger'>Invalid input</span>";
+    messageError.innerHTML= "<span class='text-danger'>Invalid Message</span>";
 }
 if (messageValue === "") {
     error = true
-    messageError.innerHTML= "<span class='text-danger'>Message can't be empty</span>";
+    messageError.innerHTML= "<span class='text-danger'>Please input your message</span>";
 }
 
 }

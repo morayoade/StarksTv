@@ -19,6 +19,9 @@
     padding:8px 0px;
 
 }
+.section-innerPage{
+    height: 600px;
+}
 .section-innerContent h2{
     font-size: 1.5rem;
     font-weight: bold;
@@ -46,6 +49,9 @@
     .section-innerContent{
         width:100%;
         padding: 5px;
+    }
+    .section-innerPage{
+        height: auto;
     }
 }
 @media only screen and (min-width: 700px) {

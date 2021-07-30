@@ -1,0 +1,93 @@
+.navbar-heading{
+      background-color:#000;
+      /* color: #fff!important; */
+      transition: 0.3s ease-in-out;
+}
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-active a{
+    color:#000!important;
+
+}
+.nav-active .section-navPlay{
+    color:#000;
+}
+.starkslogo img{
+    height: 70px;
+}
+.navbarDropdown li{
+    font-size: 16px;
+  }
+.nav-togglericon{
+    border:0px!important;
+}
+.nav-times{
+    display: none;
+    /* transition:all 150ms ease-out; */
+}
+.section-navbar{
+    background-color: #333;
+}
+.navbarDropdown a{
+    color:#fff;
+}
+.navbarDropdown a:hover{
+    color:#fff;
+  }
+  .section-navPlay{
+     color:#fff;
+     font-size: 12px!important;
+ } 
+  
+@media only screen and (max-width: 600px) {
+    .navbarDropdown a{
+        color:#000;
+      }
+    
+    /* .navbarDropdown a:hover{
+        color: blue!important;
+    
+    } */
+.navbarDropdown{
+    background-color: #fff;
+    width:80%;
+    height:200px;
+     margin: 10px 20px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+    /* backdrop-filter: blur(15%); */
+    /* transition: all 2s ease; */
+    /* transition-property: left; */
+    /* transition: all 0.5s ease-out; */
+    /* transform: translate(50%);   */
+    animation: moveToLeft 500ms ease-out;
+    /* animation: moveOut 500ms ease-in; */
+
+   
+}
+
+@keyframes moveToLeft {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+      /* width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    }
+  }
+  
+/* .burger{
+    transform: translateY(0px);
+    transition: 500ms 0s ease-out;
+} */
+.starkslogo img{
+    height: 40px;
+}
+
+}

@@ -22,6 +22,7 @@ font-weight: bold;
     margin:20px 10px ;
     padding:10px 0px;
     font-size:0.8rem;
+    box-shadow: none!important;
 }
 .contact-mail{
     margin:20px 10px ;
@@ -41,6 +42,9 @@ font-weight: bold;
     height: 750px;
     margin: auto;
     object-fit: contain;
+}
+.section-emailAddress{
+    color: #3A5161;
 }
 
 @media only screen and (max-width: 800px) {

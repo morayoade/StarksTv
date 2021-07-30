@@ -1,12 +1,15 @@
+.section-aboutUs{
+    padding-top: 100px;
+}
 .section-aboutUs h2{
-font-size: 1rem;
+font-size: 1.5rem;
 font-weight: bold;
 color:#767676;
 
 }
 
 .section-aboutUs p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#767676
 
 
@@ -25,33 +28,36 @@ object-fit: cover;
     background-color: #333;
     color:#fff;
     /* height:400px; */
-    padding:80px 100px;
+    padding:100px 200px;
    
 }
 .section-aboutWhatWeDo h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 20px;
 }
 .section-aboutWhatWeDo p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height:2;
 }
+.section-aboutOurShow{
+    padding:120px 50px 20px 50px;
+}
 .section-aboutOurShow h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color:#767676
 
 }
 .section-aboutOurShow p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#767676
 
 }
 
 .section-aboutOurShow img{
-    width:200px;
-    height: 120px;
+    width:500px;
+    height: 400px;
 
 }
 .section-aboutUs-image{
@@ -100,7 +106,12 @@ object-fit: cover;
            
         }
         .section-aboutOurShow{
-            padding:10px!important;
+            padding:10px;
+        }
+        .section-aboutOurShow img{
+            height:300px;
+            /* width:300px; */
+            margin-top: 30px;
         }
     
 
@@ -109,8 +120,9 @@ object-fit: cover;
 @media only screen and (max-width: 600px) {
     .section-aboutUs{
         margin:0px!important;
-     
-
+    }
+    .section-aboutOurShow{
+        padding:30px;
     }
     .section-aboutUs h2{
         padding-top: 30px;
@@ -128,6 +140,9 @@ object-fit: cover;
         height: auto;
         margin-bottom: 10px;
     
+    }
+    .section-aboutUs{
+        padding-top:0px;
     }
 
 }
