@@ -31,8 +31,7 @@ function validateEmail(email) {
  if (!validateText(fullNameValue)) {
     error = true
     fullnameError.innerHTML= "<span class='text-danger'>Please input your correct name</span>";
-}
-if (fullNameValue === "") {
+}else if (fullNameValue === "") {
     // error = false
     error=true
     fullnameError.innerHTML= "<span class='text-danger'>Please input your full name</span>";
