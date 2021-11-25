@@ -48,8 +48,13 @@ window.onscroll=()=>{
     }
 }
 const activePage=window.location.pathname;
+
 const navLinks=document.querySelectorAll(".navbar-active ").forEach(link=>{
     if(link.href.includes(`${activePage}`)){
         link.classList.add("activeclass")
     }
+    // if(!link.href.includes(`${activePage}`)){
+    //     link.classList.add('fadeoff')
+    // }
 })
+
