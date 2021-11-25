@@ -3,6 +3,7 @@
     color:#fff;
     /* padding: 20px 0px; */
     font-size: 0.8rem;
+    padding-bottom:7rem;
 
 }
 .section-footer p{
@@ -34,7 +35,23 @@
     font-size: 20px;
     margin:20px 10px;
 }
+i{
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #fff;
+    padding: 0.5em 0.6em;
+    font-size:0.5rem;
+  }
+  .footer-info {
+    color:#6a696c;
+    font-size:0.8rem;
+    padding-bottom:0.5rem;
+    font-weight:bold;
+  }
 @media only screen and (max-width: 600px) {
+    .socialMedia{
+        padding-top:5rem;   
+    }
     .section-footer ul{
         padding:  0px;
         margin: 0px;
@@ -47,4 +64,6 @@
         margin-left:0px; 
       }
 
+
 }
+

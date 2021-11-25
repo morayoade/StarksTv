@@ -1,6 +1,7 @@
 .inner-banner{
     width:100%;
     background-color: #000;
+    margin-top:5rem;
 }
 
 .inner-banner .banner-video{
@@ -14,21 +15,24 @@
     padding: 10px 0px;
 }
 .section-innersubconent{
-    font-size: 0.5rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 700;
     padding:8px 0px;
 
 }
 .section-innerPage{
     height: 600px;
+    max-width:80%;
 }
-.section-innerContent h2{
-    font-size: 1.5rem;
+.section-innerContent h1{
+    font-size: 2rem;
     font-weight: bold;
+    max-width: 100%;
 }
 .section-innerContent p{
-    font-size: 0.6rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
 }
 .section-innerInfo{
     margin-right: 20px;
@@ -45,18 +49,31 @@
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .section-innerContent{
-        width:100%;
         padding: 5px;
+        width:100%
     }
     .section-innerPage{
         height: auto;
+        max-width:100%;
+
+    }
+    .section-innerPage{
+        width:100%;
+        /* padding: 5px; */
+    }
+    .section-innerContent h1 {
+        font-size:1.5rem;
+    }
+    .inner-banner{
+  
+        margin-top:2.5rem;
     }
 }
 @media only screen and (min-width: 700px) {
     .section-innerContent{
-        width:40%;
+        width:80%;
         /* padding: 5px; */
     }
 }

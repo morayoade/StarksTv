@@ -9,7 +9,6 @@
 }
 .nav-active a{
     color:#000!important;
-
 }
 .nav-active .section-navPlay{
     color:#000;
@@ -19,6 +18,9 @@
 }
 .nav-bars, .nav-times{
     color:#fff!important;
+    border-radius: 0px!important;
+    border:0px!important;
+    font-size:1rem;
 }
 .starkslogo img{
     height: 70px;
@@ -36,9 +38,12 @@
 .section-navbar{
     background-color: #333;
 }
+.activeclass {
+    color: #f00 !important;
+}
 .navbarDropdown a{
     color:#fff;
-}
+  }
 .navbarDropdown a:hover{
     color:#fff;
   }
