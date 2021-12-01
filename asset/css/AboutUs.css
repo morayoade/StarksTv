@@ -22,7 +22,6 @@ object-fit: cover;
 .aboutUsSecondBanner{
     height:300px;
     object-fit: cover;
-
 }
 .section-aboutWhatWeDo{
     background-color: #333;
@@ -113,8 +112,6 @@ object-fit: cover;
             /* width:300px; */
             margin-top: 30px;
         }
-    
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -143,6 +140,13 @@ object-fit: cover;
     }
     .section-aboutUs{
         padding-top:0px;
+    }
+    .aboutUsSecondBanner{
+        padding:0px 0px 1rem;
+    }
+    .aboutContent{
+        padding-right:0px!important;
+
     }
 
 }

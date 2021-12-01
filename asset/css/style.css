@@ -306,7 +306,7 @@ display: none;
 
 }
 .section-content{
-  margin:0px
+  margin:0px!important;
 }
 }
 @media only screen and (max-width: 400px) {
