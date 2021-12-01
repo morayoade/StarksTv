@@ -32,7 +32,6 @@ function toggleNavbar(){
 window.onscroll=()=>{
     if(window.scrollY >0){
         navHeading.classList.add("nav-active");
-      
         blackLogo.style.display="block"
         whiteLogo.style.display="none"
 
